@@ -4,7 +4,7 @@ var winW = document.documentElement.clientWidth;
 var winH = document.documentElement.clientHeight;
 var desW = 640;
 var desH = 1080;
-main.style.webkitTransform = "scale(" + winW / desW + ")";
+main.style.webkitTransform = "scale(" + winH / desH + ")";
 
 [].forEach.call(oLis, function () {
     arguments[0].index = arguments[1];
