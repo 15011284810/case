@@ -10,7 +10,7 @@ ul{list-style:none;}
 .zIndex{z-index:111;}
 
 /*第一页style*/
-.a1{position:absolute;width:100%;height:100%;text-align:center;}
+.a1{position:absolute;width:100%;height:100%;text-align:center;background:white;}
 #a1 p:nth-child(1){position: absolute;top:70%;left:28%;-webkit-transition: 0s;color:#fff; line-height:50px; font-size:50px; font-weight:bold;text-align: center;}
 #a1 p:nth-child(2){position: absolute;top:25%;left:32%;}
 #a1 p:nth-child(3){position: absolute;top:10%;left:17%;}
